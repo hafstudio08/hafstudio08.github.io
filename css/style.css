@@ -286,3 +286,11 @@ body {
 .contact-info p a:hover {
   opacity: 1;
 }
+
+.logo {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.4rem;
+  letter-spacing: 4px;
+  font-weight: 600;
+}
