@@ -1,27 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Work — Portfolio</title>
-  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <title>Work — Studio Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/workLoader.js"></script>
 </head>
 <body>
-  <header class="main-header">
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="work.html">Work</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
 
-  <main>
-    <h1>My Work</h1>
-    <div class="project-grid" id="projectGrid">
-      <!-- JS will inject project cards here -->
-    </div>
-  </main>
+<header class="header">
+  <div class="logo">STUDIO</div>
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="work.html" class="active">Work</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
 
-  <script src="js/workLoader.js"></script>
+<section class="page-header fade-in">
+  <h1>Selected Works</h1>
+  <p>A curated collection of films, photos, and creative narratives.</p>
+</section>
+
+<section class="work-grid-section fade-in">
+  <div id="workGrid" class="work-grid">
+    <!-- JS injects all project cards -->
+  </div>
+</section>
+
 </body>
 </html>

@@ -1,16 +1,18 @@
-fetch('data/projects.json')
-  .then(res => res.json())
-  .then(json => {
-    const grid = document.getElementById('projectGrid');
-    json.projects.forEach(p => {
-      const card = document.createElement('div');
-      card.className = 'project-card';
-      card.innerHTML = `
-        <a href="project.html?id=${p.id}">
+fetch("data/projects.json")
+  .then((res) => res.json())
+  .then((data) => {
+    const container = document.getElementById("workGrid");
+
+    data.projects.forEach((p) => {
+      container.innerHTML += `
+        <a href="project.html?id=${p.id}" class="work-card fade-in">
           <img src="${p.thumbnail}" alt="${p.title}">
-          <div class="overlay"><h3>${p.title}</h3><span>${p.year}</span></div>
+          <div class="work-card-info">
+            <h3>${p.title}</h3>
+            <span>${p.year}</span>
+          </div>
         </a>
       `;
-      grid.appendChild(card);
     });
-  });
+  })
+  .catch((err) => console.error("Failed to load projects:", err));

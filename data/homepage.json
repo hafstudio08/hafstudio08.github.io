@@ -1,0 +1,19 @@
+{
+    "hero": {
+      "title": "Visual Storytelling",
+      "subtitle": "Crafting cinematic narratives through film & photography."
+    },
+    "featured": [
+      {
+        "id": "project1",
+        "title": "Urban Night Film",
+        "thumbnail": "assets/images/urban-thumb.jpg"
+      },
+      {
+        "id": "project2",
+        "title": "Portrait Series",
+        "thumbnail": "assets/images/portrait-thumb.jpg"
+      }
+    ]
+  }
+  

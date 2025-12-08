@@ -1,24 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Project — Detail</title>
-  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <title>Project — Studio Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/projectLoader.js"></script>
 </head>
 <body>
-  <header class="main-header">
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="work.html">Work</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
 
-  <main id="projectContent">
-    <!-- JS will inject project detail here -->
-  </main>
+<header class="header">
+  <div class="logo">STUDIO</div>
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="work.html">Work</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
 
-  <script src="js/projectLoader.js"></script>
+<section class="project-header fade-in">
+  <h1 id="projectTitle"></h1>
+  <p id="projectYear"></p>
+</section>
+
+<section id="projectMedia" class="project-media fade-in">
+  <!-- Video or photos inserted by JS -->
+</section>
+
+<section class="project-description fade-in">
+  <p id="projectDescription"></p>
+</section>
+
+<div class="back-link fade-in">
+  <a href="work.html">← Back to Work</a>
+</div>
+
 </body>
 </html>
