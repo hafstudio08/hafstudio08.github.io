@@ -1,0 +1,27 @@
+{
+    "projects": [
+      {
+        "id": "project1",
+        "title": "Urban Night Film",
+        "type": "video",
+        "thumbnail": "assets/images/urban-thumb.jpg",
+        "media": "assets/videos/urban-night.mp4",
+        "description": "A cinematic exploration of city nightlife. Shot in 4K, color graded for moody night tones.",
+        "year": "2025"
+      },
+      {
+        "id": "project2",
+        "title": "Portrait Photography Series",
+        "type": "photo",
+        "thumbnail": "assets/images/portrait-thumb.jpg",
+        "media": [
+          "assets/images/portrait1.jpg",
+          "assets/images/portrait2.jpg",
+          "assets/images/portrait3.jpg"
+        ],
+        "description": "Black-and-white portrait series focusing on lighting and emotion.",
+        "year": "2024"
+      }
+    ]
+  }
+  
