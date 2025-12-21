@@ -1,0 +1,26 @@
+{
+    "brand": {
+      "name": "hypeaf.studio",
+      "tagline": "Design • Photography • Visual Arts",
+      "logoText": "HYPEAF"
+    },
+    "theme": {
+      "mode": "dark",
+      "accent": "#E84220",
+      "bg": "#000000",
+      "text": "#F5F5F5"
+    },
+    "nav": [
+      { "label": "Home", "href": "/" },
+      { "label": "Designs", "href": "/designs.html", "category": "design" },
+      { "label": "Photography", "href": "/photography.html", "category": "photography" },
+      { "label": "Visual Arts", "href": "/visual-arts.html", "category": "visual-arts" },
+      { "label": "About", "href": "/about.html" }
+    ],
+    "socials": [
+      { "label": "Instagram", "href": "https://instagram.com/" },
+      { "label": "Behance", "href": "https://behance.net/" }
+    ],
+    "contact": { "email": "hello@hypeaf.studio" }
+  }
+  

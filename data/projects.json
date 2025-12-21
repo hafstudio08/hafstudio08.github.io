@@ -1,27 +1,58 @@
-{
-    "projects": [
-      {
-        "id": "urban-night",
-        "title": "Urban Night Film",
-        "type": "video",
-        "thumbnail": "assets/images/urban-thumb.jpg",
-        "media": "assets/videos/urban-night.mp4",
-        "description": "A cinematic exploration of night life in the modern city.",
-        "year": "2025"
-      },
-      {
-        "id": "portraits",
-        "title": "Portrait Photography Series",
-        "type": "photo",
-        "thumbnail": "assets/images/portrait-thumb.jpg",
-        "media": [
-          "assets/images/portrait1.jpg",
-          "assets/images/portrait2.jpg",
-          "assets/images/portrait3.jpg"
-        ],
-        "description": "A study of emotion through soft lighting and monochrome tones.",
-        "year": "2024"
+[
+    {
+      "id": "hypeaf-brand-system",
+      "title": "HYPEAF Brand System",
+      "category": "design",
+      "year": 2025,
+      "tags": ["branding", "posters"],
+      "cover": "assets/images/designs/hypeaf-brand/cover.jpg",
+      "preview": { "type": "image", "src": "assets/images/designs/hypeaf-brand/cover.jpg" },
+      "page": {
+        "intro": "A modular identity system built for loud, minimal impact.",
+        "blocks": [
+          { "type": "image", "src": "assets/images/designs/hypeaf-brand/01.jpg" },
+          { "type": "image", "src": "assets/images/designs/hypeaf-brand/02.jpg" },
+          { "type": "text", "content": "A set of rules that still feels human." },
+          { "type": "image", "src": "assets/images/designs/hypeaf-brand/03.jpg" }
+        ]
       }
-    ]
-  }
+    },
+    {
+      "id": "streetlight-series",
+      "title": "Streetlight Series",
+      "category": "photography",
+      "year": 2024,
+      "tags": ["street"],
+      "cover": "assets/images/photography/streetlight/cover.jpg",
+      "preview": {
+        "type": "video",
+        "src": "assets/video/streetlight-preview.mp4",
+        "poster": "assets/images/photography/streetlight/poster.jpg"
+      },
+      "page": {
+        "intro": "Night textures, soft grain, and moments that feel stolen.",
+        "blocks": [
+          { "type": "image", "src": "assets/images/photography/streetlight/01.jpg" },
+          { "type": "image", "src": "assets/images/photography/streetlight/02.jpg" },
+          { "type": "image", "src": "assets/images/photography/streetlight/03.jpg" }
+        ]
+      }
+    },
+    {
+      "id": "motion-poster-pack",
+      "title": "Motion Poster Pack",
+      "category": "visual-arts",
+      "year": 2025,
+      "tags": ["motion", "experiments"],
+      "cover": "assets/images/visual-arts/motion-posters/cover.jpg",
+      "preview": { "type": "gif", "src": "assets/images/visual-arts/motion-posters/preview.gif" },
+      "page": {
+        "intro": "Short loops designed like punchlines.",
+        "blocks": [
+          { "type": "video", "src": "assets/video/motion-posters/01.mp4", "muted": true, "loop": true },
+          { "type": "video", "src": "assets/video/motion-posters/02.mp4", "muted": true, "loop": true }
+        ]
+      }
+    }
+  ]
   

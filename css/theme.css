@@ -1,0 +1,20 @@
+:root{
+  /* HYPEAF theme (from logo) */
+  --bg:#000000;
+  --bg2:#050505;
+
+  --text:#F5F5F5;
+  --muted:rgba(245,245,245,0.70);
+
+  --accent:#E84220;               /* main orange-red */
+  --accentDark:#B7361C;           /* darker accent */
+  --accentGlow:rgba(232,66,32,0.35);
+
+  --line:rgba(245,245,245,0.12);
+  --card:rgba(245,245,245,0.05);
+  --card2:rgba(245,245,245,0.10);
+
+  --radius:18px;
+}
+
+body.is-nav-open { overflow: hidden; }

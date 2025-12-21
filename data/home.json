@@ -1,0 +1,19 @@
+{
+    "hero": {
+      "type": "video",
+      "headline": "Ideas that hit.",
+      "subhead": "Design, photography, and visual arts with a raw edge.",
+      "video": {
+        "desktop": "assets/videos/hafbg.mp4",
+        "mobile": "assets/videos/hafbg.mp4",
+        "poster": "assets/images/hero-poster.jpg"
+      },
+      "cta": { "label": "Explore Work", "href": "/designs.html?jump=grid" }
+    },
+    "featured": [
+      { "projectId": "hypeaf-brand-system" },
+      { "projectId": "streetlight-series" },
+      { "projectId": "motion-poster-pack" }
+    ]
+  }
+  

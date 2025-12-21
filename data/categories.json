@@ -1,0 +1,21 @@
+[
+    {
+      "id": "design",
+      "label": "Designs",
+      "layout": "masonry",
+      "filters": ["branding", "posters", "ui"]
+    },
+    {
+      "id": "photography",
+      "label": "Photography",
+      "layout": "grid",
+      "filters": ["street", "portraits", "events"]
+    },
+    {
+      "id": "visual-arts",
+      "label": "Visual Arts",
+      "layout": "mixed",
+      "filters": ["motion", "3d", "experiments"]
+    }
+  ]
+  
